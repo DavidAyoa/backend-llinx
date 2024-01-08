@@ -122,12 +122,13 @@ app.post("/spring", (req, res) => {
 });
 
 const getVisitDetails = async (req) => {
+    let ipAddress;
     let geoData;
     const AgentParser = new UAParser(req.headers['user-agent']);
     var { browser, os } = AgentParser.getResult();
 
     try {
-        const ipAddress = req.headers['x-forwarded-for'] || req.connection.remoteAddress || req.ip || null;
+        ipAddress = req.headers['x-forwarded-for'] || req.connection.remoteAddress || req.ip || null;
         console.log("IP Address: ", ipAddress)
         if (typeof ipAddress === null) return {error: "Error Getting IP Address"}
 

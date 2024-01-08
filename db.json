@@ -1,0 +1,79 @@
+{
+  "64ghl": {
+    "targetUrl": "https://investing.com",
+    "expires": 1690741014204,
+    "analytics": {
+      "191.101.80.9": {
+        "visits": null,
+        "location": {
+          "country": "USA",
+          "city": "California"
+        }
+      }
+    }
+  },
+  "fh84i": {
+    "targetUrl": "https://investing.com",
+    "expires": 1690741014204,
+    "analytics": {
+      "191.101.80.9": {
+        "visits": null,
+        "location": {
+          "country": "USA",
+          "city": "California"
+        }
+      }
+    }
+  },
+  "users": {
+    "16298afa-f80a-4643-9ca9-0916c8adc5e2": {
+      "name_email": "incenix",
+      "password": "22bbn44",
+      "links": {
+        "982uu": {
+          "targetUrl": "https://dailyfx.com",
+          "expires": 1690741014204,
+          "analytics": {
+            "191.101.80.9": {
+              "visits": null,
+              "location": {
+                "country": "USA",
+                "city": "California"
+              }
+            }
+          }
+        }
+      }
+    },
+    "2854455f-2891-408d-a12e-a4965d74ffa2": {
+      "name_email": "feflfwefowe@gmail.com",
+      "password": "ghgoisg;"
+    }
+  },
+  "ubamq": {
+    "targetUrl": "https://chat.openai.com/c/63869cbf-f989-43c9-867b-c234cd34d507",
+    "expires": 1690741014204,
+    "analytics": {
+      "191.101.80.9": {
+        "visits": null,
+        "location": {
+          "country": "USA",
+          "city": "California"
+        }
+      }
+    }
+  },
+  "2vzy4": {
+    "targetUrl": "https://chat.openai.com/c/23151d23-89ad-4aee-b960-3c6ccdd95df7",
+    "expires": 1690741014204,
+    "analytics": {
+      "191.101.80.9": {
+        "visits": null,
+        "location": {
+          "country": "USA",
+          "city": "California"
+        }
+      }
+    }
+  }
+}

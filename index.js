@@ -156,7 +156,7 @@ const getVisitDetails = async (req) => {
     }
 }
 
-app.get("/:springId", (req, res) => {
+app.get("/:springId", async (req, res) => {
     const springId = req.params.springId
     try {
         const rawData = fs.readFileSync("./db.json", "utf8");
@@ -164,7 +164,7 @@ app.get("/:springId", (req, res) => {
 
         if (existingData[springId]) {
             const targetUrl = existingData[springId].targetUrl;
-            res.send(getVisitDetails(req))
+            res.send(await getVisitDetails(req))
             // res.redirect(targetUrl)
         } else {
             res.send("Link not identified or link has expired :( ...")
